@@ -1,20 +1,15 @@
-
+import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
-import Shop from './components/Shop/Shop';
+import Player from './components/Player/Player';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header></Header>
-      <Shop></Shop>
+      <Player></Player>
     </div>
   );
 }
 
 export default App;
-
-
-
-
-
